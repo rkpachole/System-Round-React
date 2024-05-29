@@ -1,0 +1,22 @@
+.file-explorer{
+    display: flex;
+    height: 100vh;
+}
+.directory-tree{
+    width: 250px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    overflow-y: auto;
+}
+.file-explorer{
+    flex: 1;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+}
+.folder-contents{
+    width: 200px;
+    background-color: #ffffff;
+    padding: 10px;
+    overflow-y: auto;
+    border-left: 1px solid #ccc;
+}
