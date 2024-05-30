@@ -1,40 +1,28 @@
 {
-    "name": "root",
-    "type": "folder",
-    "children": [
-        {
-            "name": "Documents",
-            "type": "folder",
-            "children": [
-                {
-                    "name": "Resume.docx",
-                    "type": "file"
-                },
-                {
-                    "name": "coverLetter.docx",
-                    "type": "file"
-                }
-            ]
+    "root": {
+      "type": "folder",
+      "children": {
+        "Documents": {
+          "type": "folder",
+          "children": {
+            "Resume.docx": { "type": "file" },
+            "CoverLetter.docx": { "type": "file" }
+          }
         },
-        {
-            "name": "Photos",
-            "type": "folder",
-            "children": [
-                {
-                    "name": "vacation",
-                    "type": "folder",
-                    "children": [
-                        {
-                            "name": "photo.jpg",
-                            "type": "file"
-                        },
-                        {
-                            "name": "photo1.jpg",
-                            "type": "file"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
-}
+        "Pictures": {
+          "type": "folder",
+          "children": {
+            "Vacation": {
+              "type": "folder",
+              "children": {
+                "photo1.jpg": { "type": "file" },
+                "photo2.jpg": { "type": "file" }
+              }
+            }
+          }
+        },
+        "todo.txt": { "type": "file" }
+      }
+    }
+  }
+  
