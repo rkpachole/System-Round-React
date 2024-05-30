@@ -8,9 +8,15 @@
   border-right: 1px solid #ccc;
 }
 
-.file-content {
+.file-content-operations {
   width: 70%;
   padding: 20px;
+}
+
+.file-content {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .file-tree-item {
@@ -24,5 +30,6 @@
 
 .file-operations {
   display: flex;
+  flex-direction: column;
   gap: 10px;
 }
